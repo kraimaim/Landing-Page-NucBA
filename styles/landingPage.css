@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,300&display=swap');
+
+body {
+    
+    background:url('../styles/img/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #312ac6;
+}
+.conteiner {
+    display: grid;
+    grid-template-columns: [logo] 1fr [contenido] 1fr;
+}
+.bokeh {
+    margin-top: 50px;
+    margin-left: 65px;
+    
+}
+
+#logote {
+     
+    margin-top: 200px;
+    margin-left: 300px;
+    height: auto;
+    width: auto;
+    
+    
+}
+#titulo {
+    font-family: 'Montserrat', 'black 900', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 70px;
+    
+}
+
+.letters {
+    margin-top: 80px;
+    padding: 60px 70px 40px 40px;
+}
+
+.texto {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 35px;
+}
+
+.sumate {
+    color: #312ac6;
+    background-color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 16px 75px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.8) ;
+    border-width: 0px;
+    cursor: pointer;
+}
+.sumate:focus{
+    outline: none;
+}
+
+@media(max-width:480px ){
+    
+    .conteiner {
+        height: 100vh;
+     display: grid;
+     grid-template-rows: 0.5fr 3.5fr;
+     grid-template-columns: 1fr;
+ }
+ #logote {
+    margin-top: 80px;
+    margin-left: 80px;
+    height: auto;
+    width: 200px;
+ }
+ .logoGrande {
+     display: flex;
+ }
+ .bokeh {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+ }
+ #bokita {
+     width: 120px;
+ }
+ .letters {
+     margin-top: 0px;
+     padding: 60px 0 0 0 ;
+     align-content: center;
+     align-items: center;
+ }
+ #titulo {
+     margin-top: 0px;
+     font-size: 26px;
+     text-align: center;
+ }
+ .texto {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height:28px;
+    padding: 0px 20px;
+}
+
+.sumate {
+    margin-left: 55px;
+    padding: 12px 75px;
+    
+}
+
+}

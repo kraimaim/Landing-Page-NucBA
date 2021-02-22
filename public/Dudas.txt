@@ -1,0 +1,2 @@
+El Landing Page se realizo con 2 dos medidas: mobile y desktop(iphone X).
+1- Como hacer para que el fondo en la version mobile, quede igual que en el ejemplo, (ubicacion de bolitas)
